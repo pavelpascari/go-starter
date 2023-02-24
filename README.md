@@ -15,8 +15,9 @@ gh repo create <name> \
 ## Features
 
 - [ ] GitHub Actions workflow for CI
-  - [ ] run tests with coverage check
-  - [ ] vulnerability scanning
+  - [x] run tests
+    - [ ] ...with coverage check
+  - [x] vulnerability scanning with SARIF report thanks to [@Templum](https://github.com/Templum)'s `Templum/govulncheck-action`
   - [ ] static check
 - [x] Dependabot security scanning for `go`, `github-actions`
 
